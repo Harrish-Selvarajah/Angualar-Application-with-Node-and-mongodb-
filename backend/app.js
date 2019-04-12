@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://Alan:56R4sHSfPlcKQjAY@cluster0-uz5ne.gcp.mongodb
      console.log('Connection to database Succesful!');
    })
    .catch(() => {
-     console.log('Connection failed!!');
+     console.log('Connection failed!!!');
    });
 
 app.use(bodyParser.json());
